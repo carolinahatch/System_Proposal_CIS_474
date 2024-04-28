@@ -26,18 +26,18 @@ of 5
 5. Structure Chart Diagram
 6. Appendices
 ## Executive Summary
-> A summary of all the essential information in the proposal so
-that a busy executive can read it quickly and decide what parts
-of the plan to read in more depth.
+One of Messiah University's fundamental values is the importance of community. With this in mind, our team of cybersecurity students wanted to create a system to allow student clubs to share information about upcoming events with students in a simple, streamlined manner. The idea took shape as College Connect, a program that allows clubs to post event information on a virtual bulletin board. This system request document provides the necessary details about our project, including technical/organizational feasibility, requirements, data models, timeline, and use cases, as detailed in the table of contents. If you have any questions, please do not hesitate to reach out to the team, and we will be happy to answer any questions about our project. 
+
 ## 1. System Request
-> *Reference Chapter 1*
-**Project Sponsor:** Carmella Herrera, General Manager, Client
-Services Business Unit
-**Business Need:** This project has been initiated . . .
-**Business Requirements:** Using this system from our . . .
-**Business Value:** The Client Services business unit . . .
-**Special Issues or Constraints:** The capabilities described . .
-.
+
+**Project Sponsor:** Messiah University Cybersecurity Students: Jess Donahoue, Carolina Hatch, Brandan Snook, and Nathan Steinbach 
+
+**Business Need:** This project has been initiated to improve the community aspect of Messiah University. Messiah has many clubs that host events nearly every week. While clubs can communicate with users via social media and emails, many students ignore emails and only follow specific clubs. This program allows clubs to upload their events to a community calendar. This means their events will be displayed to all users, regardless of if they subscribe to the club. This will enable a greater level of communication and involvement between clubs and users, which will strengthen the community on our campus.
+
+**Business Requirements:** This system shall allow clubs to post details of upcoming events to a community bulletin board. Students will be able to subscribe to the clubs they choose. This will allow them to receive notifications about events from these clubs. Clubs and students will be different types of accounts with different privileges and abilities. 
+
+**Business Value:** This project will allow for greater connectivity between clubs and students. This will increase student participation in club activities, helping both parties build strong communities in line with Messiah University's desire to foster student connections. 
+**Special Issues or Constraints:** Although student accounts will be connected to Messiah, we will need to ensure that no FERPA data is pulled by the app. Additionally, we will need to ensure a great amount of both club and student support for this app or it will fail early on. 
 ## 2. Work plan
 > The original work plan revised after having completed the
 analysis phase.
