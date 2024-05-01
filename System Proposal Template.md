@@ -124,8 +124,34 @@ Parts room clerk|
 Shop work order datastore|
 |||Work Order ready notice|Technician|
 ### 5.3 Process Model (Data Flow Diagram)
-> A set of process models and descriptions for the tois system
-that will be replaced.
+
+```mermaid
+flowchart
+
+    E1["`Student`"]
+    E2["`Club`"]
+    P0(["`
+    0
+    Bulletin Board System`"])
+
+    E3["`Admin`"]
+
+    D1[[D1:Club Connect Datastore ]]
+
+    E1 -- Views Club Events --> P0
+    E1 -- Registers for Club --> E2
+    E2 -- Sends Student Registration Data --> D1
+    E2 -- Uploads Events for Approval--> E3
+    P0 -- Sends Event Registration Information to Datastore --> D1
+    E3 -- Approves Events and Posts it --> P0 
+    E2 -- Approves/Rejects Club Registration --> D1
+    D1 -- Sends List of Club Members --> E2
+    E1 -- Registers for Event --> P0
+    E2 -- Sends Event Information to Members --> E1
+
+
+```
+
 ### 5.4 Data Model (Entity Relationship Diagram)
 > *Reference Chapter 5*
 > A set of data models and descriptions for the tois system that
